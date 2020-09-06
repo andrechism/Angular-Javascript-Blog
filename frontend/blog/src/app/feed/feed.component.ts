@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PostService } from '../service/post.service';
 import { Post } from '../model/Post'
+import { faTrashAlt } from '@fortawesome/free-regular-svg-icons'
 
 @Component({
   selector: 'app-feed',
@@ -8,6 +9,8 @@ import { Post } from '../model/Post'
   styleUrls: ['./feed.component.css']
 })
 export class FeedComponent implements OnInit {
+
+  faTrashAlt = faTrashAlt
 
   listPost: Post[];
   post: Post = new Post;
@@ -27,6 +30,12 @@ export class FeedComponent implements OnInit {
   cadastrarMensagem() {
     this.postService.postMensagem(this.post).subscribe((data: Post) => {
       this.post = data
+      location.assign('/feed/#nome')
+    })
+  }
+
+  deletarMensagem(post: Post) {
+    this.postService.deleteMensagem(post).subscribe((data: Post) => {
       location.assign('/feed/#nome')
     })
   }

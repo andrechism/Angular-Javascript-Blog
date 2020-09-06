@@ -16,4 +16,9 @@ export class PostService {
   postMensagem(post: Post) {
     return this.http.post('http://localhost:3000/posts', post)
   }
+  
+  deleteMensagem(post: Post) {
+    console.log(post)
+    return this.http.delete('http://localhost:3000/posts/' + post)
+  }
 }

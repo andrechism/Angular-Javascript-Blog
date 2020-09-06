@@ -1,58 +1,14 @@
 {
   "posts": [
     {
-      "id": 1,
-      "nome": "Andre",
-      "mensagem": "Seja bem vindo ao meu blog pessoal!"
-    },
-    {
-      "nome": "Maggie",
-      "mensagem": "Este post foi atualizado!!!",
-      "id": 2
-    },
-    {
-      "id": 3,
-      "nome": "Marilyn",
-      "mensagem": "Esta é minha primeira postagem!"
-    },
-    {
-      "id": 4,
-      "nome": "Mel",
-      "mensagem": "Esta é uma nova postagem!!"
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "nome": "teste",
-      "mensagem": "teste123",
-      "id": 8
-    },
-    {
-      "nome": "andreeee",
-      "mensagem": "uma mensagem",
-      "id": 9
-    },
-    {
-      "nome": "teste",
-      "mensagem": "teste123123123",
-      "id": 10
-    },
-    {
-      "nome": "André Aragão",
-      "mensagem": "Mensagem nova dnvvvvvv",
-      "id": 11
+      "nome": "André",
+      "mensagem": "Iaêeeeee isso é uma mensagem",
+      "id": 1
     },
     {
       "nome": "André",
-      "mensagem": "Iaeeeeeeeeeeee",
-      "id": 12
+      "mensagem": "Qualéeeee isso é outra mensagem",
+      "id": 2
     }
   ]
 }
